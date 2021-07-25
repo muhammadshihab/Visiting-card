@@ -1,0 +1,151 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.picture_abbu {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  -webkit-animation-name: img_abbu;
+          animation-name: img_abbu;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes img_abbu {
+  0% {
+    top: 0%;
+    left: 0%;
+    max-width: 150px;
+  }
+  25% {
+    top: 0%;
+    left: 5%;
+    max-width: 150px;
+  }
+  50% {
+    top: 0%;
+    left: 0%;
+    max-width: 150px;
+  }
+  75% {
+    top: 0%;
+    left: -5%;
+    max-width: 150px;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+    max-width: 150px;
+  }
+}
+
+@keyframes img_abbu {
+  0% {
+    top: 0%;
+    left: 0%;
+    max-width: 150px;
+  }
+  25% {
+    top: 0%;
+    left: 5%;
+    max-width: 150px;
+  }
+  50% {
+    top: 0%;
+    left: 0%;
+    max-width: 150px;
+  }
+  75% {
+    top: 0%;
+    left: -5%;
+    max-width: 150px;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+    max-width: 150px;
+  }
+}
+
+.card {
+  width: 450px;
+  height: 230px;
+  margin: 50px auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 0, 128, 0.192)), to(rgba(0, 0, 255, 0.26)));
+  background-image: linear-gradient(rgba(128, 0, 128, 0.192), rgba(0, 0, 255, 0.26));
+  position: relative;
+}
+
+.card .logo {
+  width: 90px;
+  float: right;
+  margin: 10px 10px 0px 0px;
+}
+
+.card .name {
+  position: absolute;
+  margin: 15px 0px 0px 15px;
+  color: #050396;
+}
+
+.card .post {
+  position: absolute;
+  margin: 35px 0px 0px 15px;
+  color: darkgreen;
+}
+
+.card .addres {
+  position: absolute;
+  margin: 50px 0px 0px 15px;
+  color: darkgreen;
+}
+
+.clear {
+  clear: both;
+}
+
+.middle ul {
+  font-size: 11.5px;
+  font-weight: bold;
+  margin: 15px 0px 0px 15px;
+}
+
+.middle ul li {
+  list-style-type: none;
+}
+
+.middle ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.middle ul li a :hover{
+  text-decoration: underline;
+}
+
+hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.014);
+  margin-top: 20px;
+}
+
+.end {
+  text-align: center;
+  color: darkgreen;
+}
+
+.end h3 {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */

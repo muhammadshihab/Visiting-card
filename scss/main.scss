@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.picture_abbu{
+    max-width: 150px;
+    display: block;
+    margin:0 auto;
+    border-radius:50%;
+    position: relative;
+    animation-name: img_abbu;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes img_abbu{
+    0%{
+        top: 0%;
+        left: 0%;
+        max-width: 150px;
+    }
+    25%{
+        top: 0%;
+        left: 5%;
+        max-width: 150px;
+    }
+    50%{
+        top: 0%;
+        left: 0%;
+        max-width: 150px;
+    }
+    75%{
+        top: 0%;
+        left: -5%;
+        max-width: 150px;
+    }
+    100%{
+        top: 0%;
+        left: 0%;
+        max-width: 150px;
+    }
+}
+
+.card{
+    width: 450px;
+    height: 230px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.192),rgba(0, 0, 255, 0.26));
+    position: relative;
+
+    .logo{
+        width: 90px;
+        float: right;
+        margin: 10px 10px 0px 0px;
+    }
+    
+    .name{
+        position: absolute;
+        margin: 15px 0px 0px 15px;
+        color: rgb(5, 3, 150);
+    }
+
+    .post{
+        position: absolute;
+        margin: 35px 0px 0px 15px;
+        color: darkgreen;
+    }
+
+    .addres{
+        position: absolute;
+        margin: 50px 0px 0px 15px;
+        color: darkgreen;
+    }
+
+}
+
+.clear{
+    clear: both;
+}
+
+.middle{
+    ul{
+        font-size: 11.5px;
+        font-weight: bold;
+        margin: 15px 0px 0px 15px;
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: black;
+                cursor: pointer;
+
+                :hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+hr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.014);
+    margin-top: 20px;
+}
+
+.end{
+    text-align: center;
+    color: darkgreen;
+    h3{
+        margin-top: 20px;
+    }
+}
